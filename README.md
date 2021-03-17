@@ -6,6 +6,18 @@
     Product focuses on 100% education as well as upskilling developing countries and rural areas.</i></b>
 </blockquote>
 
+<br/>
+
+<div align="center">
+
+![Issues tag](https://img.shields.io/github/issues/codeforcauseorg/edu-client)
+![Forks tag](https://img.shields.io/github/forks/codeforcauseorg/edu-client)
+![Stars](https://img.shields.io/github/stars/codeforcauseorg/edu-client?style=social)
+![Licence](https://img.shields.io/github/license/codeforcauseorg/edu-client)
+![twitter](https://img.shields.io/twitter/follow/codeforcauseIn?style=social)
+[![Discord](https://img.shields.io/discord/717102560909197493.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/jBHPxUz)
+
+</div>
 ## ❤️ Note to new contributors
 
 Thank you for considering and taking the time to contribute! Before contributing kindly read and follow [Code of Conduct](CODE_OF_CONDUCT.md). To help new developers/contributors there are set of instructions added in [CONTRIBUTING.md](CONTRIBUTING.md). Which describes the intial stages for working on this project. Also refer the [MIT License](LICENSE).
@@ -85,6 +97,12 @@ Whenever you want to contribute to any project. It is best practice that you sho
 4. But still if you start editing the edits will go to the main branch. To change the path of the edits type in `git checkout <your-branch-name>`
 5. Now you are ready to do the desired changes.
 
+
+## 📌 Setting up .env file :
+1. Create a new file `.env` in root directory. 
+2. Copy all the default content from `.env.example` file to `.env` file.
+3. You can edit this `.env` file to provide your own project credentials if needed in future for specific tweaks and tests.
+
 ## 📌 Setting up project using `npm` :
 
 1. Open this clonned folder in text editor of your choice
@@ -144,6 +162,12 @@ Skip the yarn part and proceed to the Pushing the changes section [here](#-pushi
    Your app is ready to be deployed!
 5. See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### 🚩 Running storybook :
+
+1. Run the command `npm run storybook`
+2. wait on `localhost:6000`
+3. write stories for component in `stories` folder under `src` folder.
+
 ## 📌 Pushing your changes
 
 Now you have made the changes , tested them, and built them. so now its time to push them.
@@ -169,3 +193,11 @@ By this time you can see a message on your github fork as `your fork is ahead of
 [Anuj Garg](https://github.com/KeenWarrior)\
 [Kunal Kushwaha](https://github.com/kunal-kushwaha)\
 [Abhishek Kumar](https://github.com/Abhishek-kumar09)
+
+## 📌 Credits :
+
+This project exists thanks to all the people who contribute.
+
+<a href="https://github.com/codeforcauseorg/edu-client/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=codeforcauseorg/edu-client" />
+</a>
